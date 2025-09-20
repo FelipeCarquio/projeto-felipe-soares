@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --azulescuro: #1C3E5C;
+    --azulclaro: #3B83C3;
+    --corclara: #DFE0D9;
+    --marrom: #AC9474;
+    --fontopensans: 'Open Sans';
+    --fontroboto: 'Roboto';
+
+    --b: 1px solid white;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--azulescuro);
+    font-family: var(--fontopensans);
+}
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.logo img {
+    width: 200px;
+    height: 80px;
+    /* border: var(--b); */
+}
+
+.menu-icon {
+    color: var(--marrom);
+    font-size: 3em;
+    cursor: pointer;
+}
+
+nav {
+    background-color: var(--marrom);
+    height: 190px;
+    display: none;
+}
+
+ul {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--corclara);
+    font-size: 1.125em;
+}
+
+ul > li, li > a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--corclara);
+    cursor: pointer;
+}
