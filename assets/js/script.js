@@ -1,5 +1,5 @@
 function clickMenu() {
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu')    
     if (menu.style.display == 'block') {
         menu.style.display = 'none'
     }else {
