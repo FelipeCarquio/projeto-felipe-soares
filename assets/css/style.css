@@ -47,6 +47,10 @@ body {
     cursor: pointer;
 }
 
+.bi-x-lg {
+    font-size: 2.5em;
+}
+
 nav {
     background-color: var(--marrom);
     height: 190px;
