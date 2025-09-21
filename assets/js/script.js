@@ -10,3 +10,5 @@ function clickMenu() {
         icone.classList.replace('bi-list', 'bi-x-lg')
     }
 }
+
+let
