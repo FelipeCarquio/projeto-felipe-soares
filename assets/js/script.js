@@ -1,5 +1,6 @@
 let icone = document.getElementById('icone')
-let menu = document.getElementById('menu')  
+let menu = document.getElementById('menu')
+let links = document.querySelectorAll('.links')
 
 function clickMenu() {
       
@@ -12,3 +13,9 @@ function clickMenu() {
     }
 }
 
+links.forEach(link => {
+  link.addEventListener('click', () => {
+    const menuElement = document.getElementById('menu');
+    menu.style.display = 'none' 
+  });
+});
