@@ -103,15 +103,16 @@ h1, h2 {
     padding-top: 15px;
 }
 
-p, h4 {
+p, h4{
     text-align: justify;
     padding: 10px;
     line-height: 35px;
 }
 
 .especialidades > li {
+    width: 80%;
     color: var(--azulescuro);
-    margin-left: 50px;
+    margin: auto;
     list-style-type: disc;
     padding-right: 5px;
 }
