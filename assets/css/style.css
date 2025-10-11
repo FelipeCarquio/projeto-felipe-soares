@@ -109,3 +109,10 @@ p {
     padding: 10px;
     line-height: 35px;
 }
+
+.especialidades > li {
+    color: var(--azulescuro);
+    margin-left: 50px;
+    list-style-type: disc;
+    padding-right: 5px;
+}
