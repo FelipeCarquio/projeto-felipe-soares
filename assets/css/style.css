@@ -52,9 +52,11 @@ body {
 }
 
 nav {
+    width: 100%;
     background-color: var(--marrom);
     height: 190px;
     display: none;
+    /* position: absolute; */
 }
 
 ul {
@@ -72,4 +74,38 @@ ul > li, li > a {
     text-decoration: none;
     color: var(--corclara);
     cursor: pointer;
+}
+
+.foto {
+    width: 200px;
+    aspect-ratio: 1/1;
+    object-fit:cover;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid var(--fundo-card);
+    outline: 5px solid var(--destaque);
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+section#home {
+    background-color: var(--corclara);
+    color: var(--azulescuro);
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: var(--fontopensans);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+    line-height: 35px;
 }

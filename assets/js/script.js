@@ -1,7 +1,8 @@
 let icone = document.getElementById('icone')
+let menu = document.getElementById('menu')  
 
 function clickMenu() {
-    let menu = document.getElementById('menu')    
+      
     if (menu.style.display == 'block') {
         menu.style.display = 'none'
         icone.classList.replace('bi-x-lg', 'bi-list')
@@ -11,4 +12,3 @@ function clickMenu() {
     }
 }
 
-let
