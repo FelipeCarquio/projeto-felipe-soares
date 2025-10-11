@@ -80,31 +80,31 @@ ul > li, li > a {
     object-fit:cover;
     overflow: hidden;
     border-radius: 50%;
-    border: 5px solid var(--fundo-card);
-    outline: 5px solid var(--destaque);
     display: block;
     margin: auto;
     margin-bottom: 15px;
     padding: 10px;
 }
 
-section#home {
+section {
     background-color: var(--corclara);
     color: var(--azulescuro);
     width: 90%;
-    margin: auto;
     border-radius: 10px;
-    margin-top: 10px;
+    margin: auto;
     font-family: var(--fontopensans);
+    margin-top: 20px;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
+    padding-top: 15px;
 }
 
-p {
+p, h4 {
     text-align: justify;
     padding: 10px;
+    line-height: 35px;
 }
 
 .especialidades > li {
