@@ -17,5 +17,6 @@ links.forEach(link => {
   link.addEventListener('click', () => {
     const menuElement = document.getElementById('menu');
     menu.style.display = 'none' 
+    icone.classList.replace('bi-x-lg', 'bi-list')
   });
 });
